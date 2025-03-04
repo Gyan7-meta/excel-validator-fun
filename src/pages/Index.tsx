@@ -5,9 +5,6 @@ import ValidationResults from '@/components/ValidationResults';
 import { ValidationResult } from '@/types';
 import { motion } from 'framer-motion';
 
-// Add framer-motion for enhanced animations
-<lov-add-dependency>framer-motion@^10.16.4</lov-add-dependency>
-
 const Index = () => {
   const [validationResult, setValidationResult] = useState<ValidationResult | null>(null);
 
